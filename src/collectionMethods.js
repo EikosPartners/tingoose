@@ -1,4 +1,6 @@
-const tcoll = require('../node_modules/tingodb/lib/tcoll');
+const tcoll = require('tingodb/lib/tcoll');
+
+console.log(tcoll.prototype);
 
 ['findOne', 'update', 'remove', 'findAndModify'].forEach((funcName) => {
     const func = tcoll.prototype[funcName];

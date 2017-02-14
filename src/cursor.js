@@ -1,4 +1,4 @@
-const tcursor = require('../node_modules/tingodb/lib/tcursor');
+const tcursor = require('tingodb/lib/tcursor');
 
 ['toArray', 'count'].forEach((funcName) => {
     const func = tcursor.prototype[funcName];
