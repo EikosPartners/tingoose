@@ -1,0 +1,23 @@
+{
+  "name": "tingoose",
+  "version": "1.0.0",
+  "description": "A wrapper for TingoDB.",
+  "main": "src/tingoose.js",
+  "scripts": {
+    "postinstall": "node scripts/setup.js",
+    "tingoline": "node src/tingoLine.js"
+  },
+  "author": "Eikos Partners",
+  "license": "MIT",
+  "dependencies": {
+    "ep-utils": "^0.1.6",
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1",
+    "tingodb": "^0.5.1",
+    "watchpack": "^1.2.1"
+  },
+  "devDependencies": {
+    "express": "^4.14.1",
+    "npm-add-script": "^1.1.0"
+  }
+}
