@@ -4,8 +4,7 @@
   "description": "A wrapper for TingoDB.",
   "main": "src/tingoose.js",
   "scripts": {
-    "postinstall": "node scripts/setup.js",
-    "tingoline": "node src/tingoLine.js"
+    "postinstall": "node scripts/setup.js"
   },
   "author": "Eikos Partners",
   "license": "MIT",

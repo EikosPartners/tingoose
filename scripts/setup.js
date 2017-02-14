@@ -7,10 +7,3 @@ mkdirp('cache', (err) => {
     }
 });
 
-// Add the tingoline cli as a script to the package.json.
-npmAddScript({
-    key: 'tingoline',
-    value: 'node node_modules/tingoose/src/tingoLine.js',
-    force: true
-});
-

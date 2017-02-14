@@ -41,7 +41,8 @@ A simple wrapper for tingodb.
 ## Tingoline
 
 This module also exposes a CLI for dumping the data stored into a json file.
-When installed, a `tingoline` script will be added to your package.json.
+If you would like to use this add the following to your package.json's scripts property
+`"tingoline": "node src/tingoLine.js"`
 
 ### Usage
 `npm run tingoline COLLECTION_NAME`
