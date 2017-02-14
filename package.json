@@ -6,6 +6,10 @@
   "scripts": {
     "postinstall": "node scripts/setup.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EikosPartners/tingoose.git"
+  },
   "author": "Eikos Partners",
   "license": "MIT",
   "dependencies": {

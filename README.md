@@ -42,7 +42,7 @@ A simple wrapper for tingodb.
 
 This module also exposes a CLI for dumping the data stored into a json file.
 If you would like to use this add the following to your package.json's scripts property
-`"tingoline": "node src/tingoLine.js"`
+`"tingoline": "node node_modules/tingoose/src/tingoLine.js"`
 
 ### Usage
 `npm run tingoline COLLECTION_NAME`
